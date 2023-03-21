@@ -5,6 +5,15 @@
   vertical-align: top;
 
   transition: background .2s linear;
+  
+  & + & {
+    margin-left: 1rem;
+  }
+
+  .disabled &{
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
 
   padding: .5em 1em;
   font-family: inherit;
@@ -15,32 +24,15 @@
   color: white;
   
   &--primary {
-    background-color: @primary;
-
-    &:hover,
-    &:focus{
-      outline: 0;
-      background-color: darken(@primary, 15%);
-    }
-
-    &:active{
-      background-color: lighten(@primary, 20%);
-    }
-   
+    .btn(@primary);
   }
+
+   
+  
   &--secondary{
-    background-color: @secondary;
-
-    &:hover,
-    &:focus{
-      outline: 0;
-      background-color: darken(@secondary, 15%);
-    }
-
-    &:active{
-      background-color: lighten(@secondary, 20%);
-    }
-   
+    .btn(@secondary);
   }
+    
+  
 }
 
