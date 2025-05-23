@@ -9,6 +9,7 @@ In this course, you'll learn how to apply
 these different elements of visual design to your webpages.
 
 <h4>preview</h4>
-    <img src="https://github.com/AndriiKot/Desing___Applied_Visual_Design___freeCodeCamp/blob/main/images/previews/preview_project.png alt="preview project 'Applied Visual Design'">
+    <img src="https://github.com/AndriiKot/Desing___Applied_Visual_Design___freeCodeCamp/blob/main/images/previews/preview_project.png" alt="preview project 'Applied Visual Design'">
+
 
 
